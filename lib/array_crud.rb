@@ -291,7 +291,7 @@ end
 def retrieve_element_from_index(array, index_number)
 	index_number = 0
 	while index_number < array.length 
-   array[index_number]
+  return array[index_number]
   index_number += 1
   
 end
